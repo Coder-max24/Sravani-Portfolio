@@ -1,4 +1,4 @@
-import { certificatesData } from '@/utils/data/projects-data';
+import { certificatesData } from '@/utils/data/certificates-data';
 import ProjectCard from './project-card';
 
 const Projects = () => {

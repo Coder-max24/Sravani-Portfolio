@@ -1,7 +1,6 @@
-import adobeXd from '../app/assets/svg/skills/adobe-xd.svg';
 import adobeaudition from '../app/assets/svg/skills/adobeaudition.svg';
-import afterEffects from '../app/assets/svg/skills/after-effects.svg';
-import angular from '../app/assets/svg/skills/angular.svg';
+import apaceAirflow from '../app/assets/svg/skills/Apache_Airflow.svg';
+import apaceSpark from '../app/assets/svg/skills/Apache_Spark.svg';
 import aws from '../app/assets/svg/skills/aws.svg';
 import azure from '../app/assets/svg/skills/azure.svg';
 import blender from '../app/assets/svg/skills/blender.svg';
@@ -18,6 +17,9 @@ import dart from '../app/assets/svg/skills/dart.svg';
 import deno from '../app/assets/svg/skills/deno.svg';
 import django from '../app/assets/svg/skills/django.svg';
 import docker from '../app/assets/svg/skills/docker.svg';
+import dotnet from '../app/assets/svg/skills/dotnet.svg';
+import dotnetcore from '../app/assets/svg/skills/dotnetcore.svg';
+import fastapi from '../app/assets/svg/skills/fastapi.svg';
 import fastify from '../app/assets/svg/skills/fastify.svg';
 import figma from '../app/assets/svg/skills/figma.svg';
 import firebase from '../app/assets/svg/skills/firebase.svg';
@@ -29,13 +31,15 @@ import go from '../app/assets/svg/skills/go.svg';
 import graphql from '../app/assets/svg/skills/graphql.svg';
 import haxe from '../app/assets/svg/skills/haxe.svg';
 import html from '../app/assets/svg/skills/html.svg';
-import illustrator from '../app/assets/svg/skills/illustrator.svg';
 import ionic from '../app/assets/svg/skills/ionic.svg';
 import java from '../app/assets/svg/skills/java.svg';
 import javascript from '../app/assets/svg/skills/javascript.svg';
+import Jira from '../app/assets/svg/skills/jira.svg';
 import julia from '../app/assets/svg/skills/julia.svg';
 import kotlin from '../app/assets/svg/skills/kotlin.svg';
+import kubernetes from '../app/assets/svg/skills/kubernetes.svg';
 import lightroom from '../app/assets/svg/skills/lightroom.svg';
+import linux from '../app/assets/svg/skills/linux.svg';
 import markdown from '../app/assets/svg/skills/markdown.svg';
 import materialui from '../app/assets/svg/skills/materialui.svg';
 import matlab from '../app/assets/svg/skills/matlab.svg';
@@ -43,45 +47,39 @@ import memsql from '../app/assets/svg/skills/memsql.svg';
 import microsoftoffice from '../app/assets/svg/skills/microsoftoffice.svg';
 import mongoDB from '../app/assets/svg/skills/mongoDB.svg';
 import mysql from '../app/assets/svg/skills/mysql.svg';
-import nextJS from '../app/assets/svg/skills/nextJS.svg';
+import PowerBI from '../app/assets/svg/skills/New_Power_BI.svg';
 import nginx from '../app/assets/svg/skills/nginx.svg';
 import numpy from '../app/assets/svg/skills/numpy.svg';
-import nuxtJS from '../app/assets/svg/skills/nuxtJS.svg';
 import opencv from '../app/assets/svg/skills/opencv.svg';
-import photoshop from '../app/assets/svg/skills/photoshop.svg';
+import pandas from '../app/assets/svg/skills/pandas.svg';
 import php from '../app/assets/svg/skills/php.svg';
 import picsart from '../app/assets/svg/skills/picsart.svg';
 import postgresql from '../app/assets/svg/skills/postgresql.svg';
 import premierepro from '../app/assets/svg/skills/premierepro.svg';
 import python from '../app/assets/svg/skills/python.svg';
 import pytorch from '../app/assets/svg/skills/pytorch.svg';
+import R from '../app/assets/svg/skills/R_logo.svg';
 import react from '../app/assets/svg/skills/react.svg';
 import ruby from '../app/assets/svg/skills/ruby.svg';
+import scikitlearn from '../app/assets/svg/skills/scikit-learn.svg';
 import selenium from '../app/assets/svg/skills/selenium.svg';
 import sketch from '../app/assets/svg/skills/sketch.svg';
+import Snowflake from '../app/assets/svg/skills/Snowflake.svg';
+import SQL from '../app/assets/svg/skills/sql.svg';
+import sqlalchemy from '../app/assets/svg/skills/sqlalchemy.svg';
 import strapi from '../app/assets/svg/skills/strapi.svg';
 import svelte from '../app/assets/svg/skills/svelte.svg';
 import swift from '../app/assets/svg/skills/swift.svg';
+import Tableau from '../app/assets/svg/skills/tableau-software.svg';
 import tailwind from '../app/assets/svg/skills/tailwind.svg';
 import tensorflow from '../app/assets/svg/skills/tensorflow.svg';
 import typescript from '../app/assets/svg/skills/typescript.svg';
 import unity from '../app/assets/svg/skills/unity.svg';
 import vitejs from '../app/assets/svg/skills/vitejs.svg';
-import vue from '../app/assets/svg/skills/vue.svg';
 import vuetifyjs from '../app/assets/svg/skills/vuetifyjs.svg';
 import webix from '../app/assets/svg/skills/webix.svg';
 import wolframalpha from '../app/assets/svg/skills/wolframalpha.svg';
 import wordpress from '../app/assets/svg/skills/wordpress.svg';
-
-import pandas from '../app/assets/svg/skills/pandas.svg';
-import scikitlearn from '../app/assets/svg/skills/scikit-learn.svg';
-import dotnet from '../app/assets/svg/skills/dotnet.svg';
-import dotnetcore from '../app/assets/svg/skills/dotnetcore.svg'
-import kubernetes from '../app/assets/svg/skills/kubernetes.svg'
-import linux from '../app/assets/svg/skills/linux.svg'
-import sqlalchemy from '../app/assets/svg/skills/sqlalchemy.svg'
-import fastapi from '../app/assets/svg/skills/fastapi.svg'
-
 
 
 export const skillsImage = (skill) => {
@@ -91,34 +89,34 @@ export const skillsImage = (skill) => {
       return gcp;
     case 'html':
       return html;
-    case 'photoshop':
-      return photoshop;
+    case 'power bi':
+      return PowerBI;
     case 'docker':
       return docker;
-    case 'illustrator':
-      return illustrator;
-    case 'adobe xd':
-      return adobeXd;
-    case 'after effects':
-      return afterEffects;
+    case 'sql':
+      return SQL;
+    case 'apache spark':
+      return apaceSpark;
+    case 'apache airflow':
+      return apaceAirflow;
     case 'css':
       return css;
-    case 'angular':
-      return angular;
+    case 'snowflake':
+      return Snowflake;
     case 'javascript':
       return javascript;
-    case 'next js':
-      return nextJS;
-    case 'nuxt js':
-      return nuxtJS;
+    case 'r':
+      return R;
+    case 'jira':
+      return Jira;
     case 'react':
       return react;
     case 'svelte':
       return svelte;
     case 'typescript':
       return typescript;
-    case 'vue':
-      return vue;
+    case 'tableau':
+      return Tableau;
     case 'bootstrap':
       return bootstrap;
     case 'bulma':
