@@ -1,7 +1,7 @@
 import { certificatesData } from '@/utils/data/certificates-data';
-import ProjectCard from './project-card';
+import CertificateCard from './certificate-card';
 
-const Projects = () => {
+const Certificates = () => {
 
   return (
     <div id='projects' className="relative z-50  my-12 lg:my-24">
@@ -24,7 +24,7 @@ const Projects = () => {
               className="sticky-card w-full mx-auto max-w-2xl sticky"
             >
               <div className="box-border flex items-center justify-center rounded shadow-[0_0_30px_0_rgba(0,0,0,0.3)] transition-all duration-[0.5s]">
-                <ProjectCard project={project} />
+                <CertificateCard project={project} />
               </div>
             </div>
           ))}
@@ -34,4 +34,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Certificates;
