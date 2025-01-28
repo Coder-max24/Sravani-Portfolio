@@ -1,20 +1,18 @@
 export const educations = [
   {
     id: 1,
-    title: "Bachelor Degree",
-    duration: "2020 - Present",
-    institution: "National University of Bangladesh",
+    title: "Master of Science in Data Analytics Engineering",
+    duration: "May 2024",
+    institution: "George Mason University",
+    gpa: "3.7",
+    relevant_course: "Applied Statistics, Data Analytics, Operations Research, Big data Essentials, Data Mining, Statistical Analysis, Machine Learning, Business Intelligence, Data Science"
   },
   {
     id: 2,
-    title: "Higher Secondary Certificate",
-    duration: "2018 - 2020",
-    institution: "Noakhali Islamia Kamil Madrasah",
-  },
-  {
-    id: 3,
-    title: "Secondary School Certificate",
-    duration: "2008 - 2018",
-    institution: "Baitus Saif Islamia Madrasah",
+    title: "Bachelor of Technology in Computer Science and Engineering",
+    duration: "May 2021",
+    institution: "Jawaharlal Nehru Technological University Hyderabad (JNTUH)",
+    gpa: "3.6",
+    relevant_course: "Data Structures, Object Oriented Programming, Database Management Systems, Operating Systems, Machine Learning, Computer Networks, Software Engineering, Web Development."
   }
 ]
