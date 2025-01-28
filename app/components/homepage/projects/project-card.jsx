@@ -27,7 +27,7 @@ function ProjectCard({ project }) {
         <p className='my-2 lg:my-3 cursor-pointer text-lg text-cyan-400 sm:text-xl font-medium '>
           {project.title}
         </p>
-        <p className='text-sm lg:text-base text-[#d3d8e8] pb-3 lg:pb-6 line-clamp-3'>
+        <p className='text-sm lg:text-base text-[#d3d8e8] pb-3 lg:pb-6'>
           {project.description}
         </p>
         {/* <div className="flex justify-end self-end mt-6">
