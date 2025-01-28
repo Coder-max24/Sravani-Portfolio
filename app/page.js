@@ -4,6 +4,7 @@ import ContactSection from "./components/homepage/contact";
 import Education from "./components/homepage/education";
 import Experience from "./components/homepage/experience";
 import HeroSection from "./components/homepage/hero-section";
+import Projects from "./components/homepage/projects";
 import Skills from "./components/homepage/skills";
 
 export default async function Home() {
@@ -16,7 +17,7 @@ export default async function Home() {
       <Skills />
       <Certificates />
       <Education />
-      {/* <Blog blogs={blogs} /> */}
+      <Projects />
       <ContactSection />
     </div>
   )
