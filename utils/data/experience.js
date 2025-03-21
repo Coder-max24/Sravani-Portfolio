@@ -3,7 +3,7 @@ export const experiences = [
     id: 1,
     title: 'Data Engineer',
     company: "Children's National Hospital, Washington DC",
-    duration: "(Jun 2023 – Present)"
+    duration: "(Jun 2023 – May 2024)"
   },
   {
     id: 2,
